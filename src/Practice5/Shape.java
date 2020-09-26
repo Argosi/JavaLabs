@@ -76,7 +76,7 @@ class Square extends RectangleAndSquare{
 }
 class Go {
     public static void main(String[] args) {
-        Circle circ1 = new Circle("круг", 0, 5);
+        Circle circ1 = new Circle("круг", 0, 6);
         System.out.println( circ1.calculatearea());
         Square square1 = new Square("квадрат", 0, 2,2);
         System.out.println( square1.calculatearea());
